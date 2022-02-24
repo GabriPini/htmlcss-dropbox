@@ -58,3 +58,19 @@
 }
 
 /* #endregion site header */
+/*#region site main */
+
+.debug .site_main{
+    background-color: darkgreen;
+    height: 3210px;
+}
+
+/*#endregion site main */
+
+/*#region site footer */
+.debug .site_footer{
+    background-color: deeppink;
+    height: 295px;
+}
+
+/*#endregion site footer */
