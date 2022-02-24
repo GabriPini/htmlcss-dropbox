@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width: 1440px;
+  font-family: sans-serif
+
+}
 
 /* #region color palette */
  :root{
@@ -88,6 +93,7 @@
 .debug .site_header{
     background-color: crimson;
     height: 544px;
+    
 }
 
 .debug .navbar{
@@ -117,6 +123,9 @@
 .debug .site_main{
     background-color: darkgreen;
     height: 4500px;
+    width: 100%;
+    max-width: 1850px;
+    margin: 0 auto;;
 }
 
 .debug .container_l{
@@ -165,7 +174,9 @@ height: 400px;
 .containerlarge{
     background-color: bisque;
     height: 800px;
-    width: 100%;
+   
+     margin: 0px auto;
+    
 }
 /* section4 */
 .debug .last-main-section{
@@ -181,7 +192,10 @@ height: 400px;
 /*#region site footer */
 .debug .site_footer{
     background-color: deeppink;
-    height: 295px;
+    height: 300px;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 1850px;
 }
 .debug .footer-colums{
     background-color: black;
