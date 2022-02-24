@@ -116,7 +116,7 @@
 
 .debug .site_main{
     background-color: darkgreen;
-    height: 4000px;
+    height: 4500px;
 }
 
 .debug .container_l{
@@ -167,13 +167,27 @@ height: 400px;
     height: 800px;
     width: 100%;
 }
+/* section4 */
+.debug .last-main-section{
+    height: 700px;
+    width: 1440px;
+    margin: 15px auto;
+    background-color: aqua;
 
+}
+/* section last */
 /*#endregion site main */
 
 /*#region site footer */
 .debug .site_footer{
     background-color: deeppink;
     height: 295px;
+}
+.debug .footer-colums{
+    background-color: black;
+    height: 90%;
+    width: 10%;
+    margin: 5px 84px;
 }
 
 /*#endregion site footer */
