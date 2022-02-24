@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region color palette */
+ :root{
+    --bglight: rgba(180, 208, 231, 1);
+    --seondarycolor: rgba(0, 97, 255, 1);
+    --terziarycolor: rgba(97, 8, 43, 1);
+    --bgsecondary:rgba(245, 245, 245, 1);
+     --bgfinal:rgba(0, 0, 0, 1);
+}
+/* #endregion color palette */
+
+/*#region utility */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+/*#endregion utility */
+
+/*#region site header */
+.debug .site_header{
+    background-color: crimson;
+    height: 550px;
+}
+
+.debug .navbar{
+  background-color: blue;
+  height: 48px;
+}
+
+.debug .col-nav{
+    background-color: chartreuse;
+    height: 48px;
+    width: 49.9%;
+}
+
+.debug .container{
+    background-color: aqua;
+    height: 496px;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* #endregion site header */
