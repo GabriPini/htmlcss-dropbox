@@ -28,12 +28,41 @@
 .right{
     float: right;
 }
+
+.column{
+    height: 800px;
+    width: 20%;
+    margin: 90px 95px;
+}
+
+.large{
+    height: 200px;
+    width: 87%;
+    margin: 0 95px;
+}
+
+.imgcont{
+
+    height: 100%;
+    width: 50%;
+    margin-left: 95px;
+    
+    
+
+}
+
+.textcont{
+    height: 100%;
+    width: 35%;
+    margin-left: 15px;
+}
+
 /*#endregion utility */
 
 /*#region site header */
 .debug .site_header{
     background-color: crimson;
-    height: 550px;
+    height: 650px;
 }
 
 .debug .navbar{
@@ -49,7 +78,7 @@
 
 .debug .container{
     background-color: aqua;
-    height: 496px;
+    height: 600px;
 }
 
 .container{
@@ -65,6 +94,34 @@
     height: 3210px;
 }
 
+.debug .container_l{
+    
+    background-color: blue;
+    height: 1200px;
+    margin-top: 50px;
+}
+
+.container_l{
+
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.debug .col-main{
+    background-color: darkorange;
+}
+
+.debug .container_sm{
+background-color: rgb(255, 0, 0);
+height: 400px;
+}
+
+.container_sm{
+
+    width: 1440px;
+    margin: 10px auto;
+}
 /*#endregion site main */
 
 /*#region site footer */
