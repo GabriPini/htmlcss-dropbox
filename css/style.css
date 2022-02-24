@@ -86,6 +86,12 @@ body{
     margin-top: 10px;
 
 }
+.debug .img-container{
+    background-color: crimson;
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
 
 /*#endregion utility */
 
