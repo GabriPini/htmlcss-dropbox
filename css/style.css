@@ -28,33 +28,58 @@
 .right{
     float: right;
 }
-
+/* 3 colonne */
 .column{
     height: 800px;
-    width: 20%;
-    margin: 90px 95px;
+    width: 25%;
+    margin: 90px 60px;
 }
-
+/* colonna larga sotto le 3 colonne */
 .large{
     height: 200px;
-    width: 87%;
-    margin: 0 95px;
+    width: 92%;
+    margin: 0 50px;
 }
-
+/* riquadro img */
 .imgcont{
 
     height: 100%;
     width: 50%;
-    margin-left: 95px;
-    
-    
+    margin-left: 50px;
 
 }
-
+/* riquadro testo affianco all img */
 .textcont{
     height: 100%;
     width: 35%;
-    margin-left: 15px;
+    margin-left:100px;
+}
+/* griglia a 6 */
+.grigl{
+    
+    height: 306px;
+    width: 25%;
+    margin: 70px 60px;
+}
+/* quadrato  */
+.round{
+    width: 25%;
+    height: 400px;
+
+
+}
+
+.rettangolo{
+    width: 48%;
+    height: 400px;
+    margin: 0px 1%;
+}
+
+.barra{
+    width: 100%;
+    height: 399px;
+    margin-top: 10px;
+
 }
 
 /*#endregion utility */
@@ -62,7 +87,7 @@
 /*#region site header */
 .debug .site_header{
     background-color: crimson;
-    height: 650px;
+    height: 544px;
 }
 
 .debug .navbar{
@@ -78,7 +103,7 @@
 
 .debug .container{
     background-color: aqua;
-    height: 600px;
+    height: 496px;
 }
 
 .container{
@@ -91,7 +116,7 @@
 
 .debug .site_main{
     background-color: darkgreen;
-    height: 3210px;
+    height: 4000px;
 }
 
 .debug .container_l{
@@ -106,7 +131,7 @@
     width: 1440px;
     margin: 0 auto;
 
-}
+}/* section 1 */
 
 .debug .col-main{
     background-color: darkorange;
@@ -122,6 +147,27 @@ height: 400px;
     width: 1440px;
     margin: 10px auto;
 }
+/* section2 */
+.sectiontitle{
+    height: 200px;
+    background-color: black;
+    width: 1440px;
+    margin: 15px auto;
+}
+.debug .container-six{
+    background-color: greenyellow;
+    height: 900px;
+    width: 1440px;
+    margin: 15px auto;
+    
+}
+/* section3 */
+.containerlarge{
+    background-color: bisque;
+    height: 800px;
+    width: 100%;
+}
+
 /*#endregion site main */
 
 /*#region site footer */
