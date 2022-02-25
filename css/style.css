@@ -68,7 +68,7 @@ header nav ul li>a{
     color: white;
     font-size: 1em;
     font-weight: 600;
-    padding: 7.5px 20px;
+    padding: 7.5px 30px;
 }
 /* header  */
 .logo{
@@ -90,13 +90,105 @@ header nav ul li>a{
     margin: 0 auto;
 }
 
+
+/* riquadro img */
+.imgcont{
+    
+    height: 100%;
+    width: 50%;
+    margin-left: 50px;
+    
+}
+/* riquadro testo affianco all img */
+.textcont{
+    height: 100%;
+    width: 35%;
+    margin-left:100px;
+}
+/* griglia a 6 */
+.grigl{
+    
+    height: 306px;
+    width: 25%;
+    margin: 70px 60px;
+}
+/* quadrato  */
+.round{
+    width: 25%;
+    height: 400px;
+}
+
+.rettangolo{
+    width: 48%;
+    height: 400px;
+    margin: 0px 1%;
+}
+
+.barra{
+    width: 100%;
+    height: 399px;
+    margin-top: 10px;
+    
+}
+
+
+/*#endregion utility */
+
+/*#region site header */
+/* sezione dell header modifica */
+#nav-bar{
+    padding: 10px;
+}
+#jumbotron{
+    position: relative;
+    padding: 5% 5%;
+    background-color: var(--secondary);
+    
+}
+#jumbo-txt{
+    width: 30%;
+    padding: 50px 15px 0 0;
+    
+}
+#jumbo-txt p{
+    padding: 10px 0 25px 0;
+}
+
+#jumbo-img{
+    position: absolute;
+    right: 100px;
+    bottom: -166px;
+    width: 55%;
+}
+
+
+/*end sezione del header modifica */
+
+
+/* #endregion site header */
+
+/*#region site main */
+
+#businessplan-sect{
+    padding-top: 150px;
+}
+
+
+#businessplan-sect>.wrapper>h2{
+    padding-bottom: 60px;
+}
+
+
 /* 3 colonne */
 .column{
     width: 30%;
     height: 900px;
     margin-top: 40px;
-    margin-right: 3%;
     border: 1px solid lightgrey;
+}
+.center{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .column_header{
@@ -162,98 +254,33 @@ header nav ul li>a{
 }
 /* colonna larga sotto le 3 colonne */
 .large{
-    height: 200px;
-    width: 92%;
-    margin: 0 50px;
-}
-/* riquadro img */
-.imgcont{
-
-    height: 100%;
-    width: 50%;
-    margin-left: 50px;
-
-}
-/* riquadro testo affianco all img */
-.textcont{
-    height: 100%;
-    width: 35%;
-    margin-left:100px;
-}
-/* griglia a 6 */
-.grigl{
-    
-    height: 306px;
-    width: 25%;
-    margin: 70px 60px;
-}
-/* quadrato  */
-.round{
-    width: 25%;
-    height: 400px;
-}
-
-.rettangolo{
-    width: 48%;
-    height: 400px;
-    margin: 0px 1%;
-}
-
-.barra{
+    height: 250px;
     width: 100%;
-    height: 399px;
     margin-top: 10px;
+    margin-right: 3%;
+}
 
+.row-header{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin-top: 80px;
 }
 
 
-/*#endregion utility */
 
-/*#region site header */
-/* sezione dell header modifica */
-#nav-bar{
-    padding: 10px;
-}
-#jumbotron{
-    position: relative;
-    padding: 5% 5%;
-    background-color: var(--secondary);
-    
-}
-#jumbo-txt{
-    width: 30%;
-    padding: 50px 15px 0 0;
-    
-}
-#jumbo-txt p{
-    padding: 10px 0 25px 0;
+.row-content{
+    width: 100%;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 20px;
 }
 
-#jumbo-img{
-    position: absolute;
-    right: 100px;
-    bottom: -166px;
-    width: 55%;
+.row-content h5{
+    padding: 30px 0;
 }
-
-
-/*end sezione del header modifica */
-
-
-/* #endregion site header */
-
-/*#region site main */
-
-#businessplan-sect{
-    padding-top: 150px;
-}
-
-
-#businessplan-sect>.wrapper>h2{
-    padding-bottom: 60px;
-}
-
-
 /* modifica label*/
 .radio-container {
     display: inline-block;
@@ -317,10 +344,10 @@ header nav ul li>a{
 
 
 .container_l{
-
+    
     width: 1440px;
     margin: 0 auto;
-
+    
 }/* section 1 */
 
 
