@@ -40,7 +40,27 @@ header nav ul li>a{
     --accent: rgba(97, 8, 43, 1);
     --light:rgba(245, 245, 245, 1);
      --dark:rgba(0, 0, 0, 1);
+     --greenbg:rgb(174, 245, 153);
+     --amarigllo:rgba(155, 25, 25, 0.842);
+     --azzurro:rgb(65, 201, 255);
+     --red:rgb(255, 0, 0);
 }
+
+.green_bg{
+    background-color:var(--greenbg) ;
+}
+.amarigllo-bg{
+    background-color: var(--amarigllo);
+}
+
+.azzurro-bg{
+    background-color: var(--azzurro);
+}
+
+.red-bg{
+    background-color: var(--red);
+}
+
 /* #endregion color palette */
 
 /*#region utility */
@@ -82,12 +102,14 @@ header nav ul li>a{
     margin: 0 auto;
 }
 
-
-
 .wrapper{
     position:relative;
     width: 1100px;
     margin: 0 auto;
+}
+
+.space{
+    margin-bottom: 60px;
 }
 
 /*#endregion utility */
@@ -374,4 +396,28 @@ header nav ul li>a{
   color: var(--primary);
 }
 
+#team-users .column{
+    margin: 0;
+    height: 456px;
+    height: fit-content;
+    border: none;
+}
+
+
+.svg_b{
+    position: relative;
+    width: 50%;
+    height: 228px;
+    padding: 50px;
+}
+
+.svg_b img{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter:  invert(1);
+    
+}
 /*#endregion site main */
