@@ -1,4 +1,4 @@
-/* common */
+/* #region common */
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ header nav ul li>a{
     color: var(--dark);
     font-weight:600;
 }
-
+/* #endregion common */
 /* #region color palette */
  :root{
     --lighter: rgb(255, 255, 255);
@@ -91,20 +91,6 @@ header nav ul li>a{
 }
 
 
-/* riquadro img */
-.imgcont{
-    
-    height: 100%;
-    width: 50%;
-    margin-left: 50px;
-    
-}
-/* riquadro testo affianco all img */
-.textcont{
-    height: 100%;
-    width: 35%;
-    margin-left:100px;
-}
 /* griglia a 6 */
 .grigl{
     
@@ -341,19 +327,29 @@ header nav ul li>a{
 
 /* end modifica radio button */
 
-
-
-.container_l{
-    
-    width: 1440px;
-    margin: 0 auto;
-    
-}/* section 1 */
-
-
-.container_sm{
-
-    width: 1440px;
-    margin: 10px auto;
+/* start second main section contatti patner */
+#contact-partner{
+    padding-top: 120px;
 }
-/* section2 */
+#contact-partner-img{
+    width: 50%;
+}
+#contact-partner .text{
+    width: 50%;
+    padding: 40px 0px 40px 70px;
+}
+#contact-partner h2{
+    font-size: 1.6em;
+}
+#contact-partner p{
+    padding-bottom: 35px;
+    line-height: 30px;
+}
+#contact-partner .button{
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+}
+
+/* end second main section contatti patner */
+/*#endregion site main */
