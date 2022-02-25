@@ -311,7 +311,8 @@ header nav ul li>a{
 /* start second main section contatti patner */
 /* utility main */
 #contact-partner,
-#business-operation{
+#business-operation,
+#team-users{
     padding-top: 120px;
 }
 /* end utility main */
@@ -337,7 +338,7 @@ header nav ul li>a{
 
 /* end second main section contatti patner */
 
-/* starti third main section operations */
+/* start third main section operations */
 
 #business-operation h1{
     font-size: 2.5rem;
@@ -363,4 +364,14 @@ header nav ul li>a{
     padding-top: 20px;
     font-weight: 500;
 }
+/* end third main section operations */
+/* start fourth main section team user  */
+#team-users h2{
+    display: block;
+    width: 48%;
+}
+#team-users a{
+  color: var(--primary);
+}
+
 /*#endregion site main */
