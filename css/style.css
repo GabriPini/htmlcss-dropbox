@@ -470,7 +470,7 @@ header nav ul li>a{
     display: block;
     width: 80%;
 }
-#team-users a{
+#team-users .button{
     text-decoration: none;
     color: var(--dark);
     background-color: var(--lighter);
