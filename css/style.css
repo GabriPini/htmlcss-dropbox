@@ -49,6 +49,7 @@ header nav ul li>a{
     --lithgrey: rgba(180, 208, 231, 1);
     --yellowb: rgba(255, 216, 48, 1);
     --bluelight:rgb(215, 229, 252);
+    --grey:rgb(226, 222, 222);
 
 }
 
@@ -106,6 +107,13 @@ header nav ul li>a{
 
 .fright{
     float: right;
+}
+
+.borderbott{
+    border-bottom: 1px solid var(--grey);
+}
+.bordertop{
+    border-top: 1px solid var(--grey);
 }
 /* bottoni */
 .button{
@@ -476,4 +484,19 @@ header nav ul li>a{
     background-color: var(--lighter);
 }
 /* end fourth main section */
+/* start FAQ section */
+#faq_section{
+ padding: 80px 0;
+ 
+}
+#faq_section h4{
+    padding: 60px 0;
+    padding-right: 30px;
+
+}
+/* end FAQ section */
+
+
+
+
 /*#endregion site main */
