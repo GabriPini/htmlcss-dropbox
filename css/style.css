@@ -496,7 +496,37 @@ header nav ul li>a{
 }
 /* end FAQ section */
 
-
-
-
 /*#endregion site main */
+/*#region site footer */
+
+#footer-container{
+    background-color: var(--dark);
+    padding: 60px 0;
+}
+#footer-container .column{
+    width: 20%;
+    border: none;
+    margin: 0;
+    height: 200px;
+    color: white;
+}
+#footer-container ul{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+#footer-container ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    line-height: 30px;
+}
+#footer-container hr{
+    margin:80px 1000px 40px 0;
+}
+
+#footer-lang{
+    color: white;
+}
+
+/*#endregion site footer */
