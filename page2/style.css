@@ -165,29 +165,11 @@ header nav ul li>a{
     background-color: var(--secondary);
     background-image: url(https://i.blogs.es/483218/deadpool/840_560.jpeg);
     background-size: cover;
-}
-
-#jumbo-txt{
-    width: 30%;
-    padding: 50px 15px 0 0;
-    line-height: 25px;
-    background: rgba(255, 255, 255, 0.322);
-    
-}
-#jumbo-txt p{
-    padding: 10px 0 25px 0;
+    height: 1000px;
 }
 
 
-#jumbo-txt h1 >a{
-    color: var(--dark);
-}
-#jumbo-img{
-    position: absolute;
-    right: 100px;
-    bottom: -166px;
-    width: 55%;
-}
+
 .dropbtn {
     padding: 16px;
     font-size: 16px;
