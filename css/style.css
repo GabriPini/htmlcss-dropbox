@@ -10,7 +10,9 @@ body{
   font-family:'Open Sans', sans-serif;
 
 }
-
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 70px;
 }
@@ -123,6 +125,7 @@ header nav ul li>a{
     font-size: 1em;
     font-weight: 600;
     padding: 7.5px 30px;
+
 }
 /* header  */
 .logo{
@@ -162,14 +165,16 @@ header nav ul li>a{
 #jumbo-txt{
     width: 30%;
     padding: 50px 15px 0 0;
+    line-height: 25px;
     
 }
 #jumbo-txt p{
     padding: 10px 0 25px 0;
 }
 
-#jumbo-txt a{
-    text-decoration: none;
+
+#jumbo-txt h1 >a{
+    color: var(--dark);
 }
 #jumbo-img{
     position: absolute;
@@ -239,9 +244,9 @@ header nav ul li>a{
 
 }
 
-.column-content .button{
+.column-content a{
     width: 100%;
-    margin: 40px 0 30px 0;
+    line-height:40px;
 }
 
 .column-header h4{
@@ -253,7 +258,7 @@ header nav ul li>a{
     margin: 15px 0 10px 0;
 }
 
-.column-content a{
+.column-content p >a{
     color: var(--primary) ;
 }
 
