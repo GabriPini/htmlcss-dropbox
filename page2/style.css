@@ -111,12 +111,7 @@ header nav ul li>a{
     float: right;
 }
 
-.borderbott{
-    border-bottom: 1px solid var(--grey);
-}
-.bordertop{
-    border-top: 1px solid var(--grey);
-}
+
 /* bottoni */
 .button{
     background-color: var(--primary);
@@ -214,14 +209,6 @@ header nav ul li>a{
 
 /*#region site main */
 
-#businessplan-sect{
-    padding-top: 150px;
-}
-
-
-#businessplan-sect>.wrapper>h2{
-    padding-bottom: 60px;
-}
 
 
 /* 3 colonne */
@@ -232,10 +219,6 @@ header nav ul li>a{
     border: 1px solid lightgrey;
 }
 
-.column hr{
-    width: 80px;
-    margin: 60px 0;
-}
 .column img{
     width: 100%;
 }
@@ -245,12 +228,7 @@ header nav ul li>a{
     margin-right: 5%;
 }
 
-.column_header{
-    height: 40px;
-    text-align: center;
-    border-bottom: 1px solid lightgrey;
-    line-height: 40px;
-}
+
 
 
 .hr{
@@ -260,146 +238,14 @@ header nav ul li>a{
     margin: 20px 0;
 }
 
-.column-content{
-    width: 100%;
-    height: calc(100% - 40px);
-    padding: 40px 30px ;
-
-}
-
-.column-content a{
-    width: 100%;
-    line-height:40px;
-}
-
-.column-header h4{
-    
-    font-weight: 600;
-}
-
-.column-content h5{
-    margin: 15px 0 10px 0;
-}
-
-.column-content p >a{
-    color: var(--primary) ;
-}
-
-.column-content ul{
-    padding-top:20px;
-    list-style: none;
-}
-
-.column-content li{
-    padding-bottom: 25px;
-    padding-left: 1.3em; 
-    font-size: 0.9em;
-}
-
-.column-content .fas,
-.column-content .far,
-.column-content .fa-solid,
-.column-content .fa-regular{
-    margin-left: -1.3em;
-}
-
-.column-content .fa-check{
-    color: var(--primary);
-}
-/* colonna larga sotto le 3 colonne */
-.large{
-    height: 250px;
-    width: 100%;
-    margin-top: 10px;
-    margin-right: 3%;
-}
-
-.row-header{
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid lightgrey;
-    margin-top: 80px;
-}
-
-
-
-.row-content{
-    width: 100%;
-    border-left: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    padding: 20px;
-}
-
-.row-content h5{
-    padding: 30px 0;
-}
-/* modifica label*/
-.radio-container {
-    display: inline-block;
-    position: relative;
-    padding-right: 35px;
-    padding-left: 20px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 1rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-/* modifica radio button */
-.radio-container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-.radiomark {
-    position: absolute;
-    top: 2px;
-    left: 0;
-    height: 1rem;
-    width: 1rem;
-    background-color: #eee;
-    border-radius: 50%;
-}
-
-.radio-container:hover input ~ .radiomark {
-    background-color: #ccc;
-}
-
-.radio-container input:checked ~ .radiomark {
-    background-color: var(--primary);
-}
-.radiomark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-.radio-container input:checked ~ .radiomark:after {
-    display: block;
-}
-.radio-container .radiomark:after {
-    top: 0.5em;
-    left: 0.5em;
-    transform: translate(-50%, -50%);
-    width: 0.5em;
-    height: 0.5em;
-    border-radius: 50%;
-    background: white;
-}
 
 /* end modifica radio button */
 
 /* start second main section contatti patner */
 /* utility main */
 #contact-partner,
-#business-operation,
-#team-users{
+#business-operation
+{
     padding-top: 120px;
 }
 /* end utility main */
@@ -459,127 +305,6 @@ header nav ul li>a{
     font-weight: 500;
 }
 /* end third main section operations */
-/* start fourth main section team user  */
-#team-users h2{
-    display: block;
-    width: 48%;
-}
-#team-users a{
-  color: var(--primary);
-}
-
-#team-users .column{
-    margin: 0;
-    height: 456px;
-    height: fit-content;
-    border: none;
-    
-}
-
-#team-users .column:nth-child(2){
-    margin: 0 0 0 0;
-    padding: 37.5px 50px;
-    width: 40%;
-    height: 456px;
-    background-color: rgb(247, 247, 247);
-}
-#team-users .column:nth-child(2) p{
-    padding-bottom: 25px;
-} 
-.svg_b{
-    position: relative;
-    width: 50%;
-    height: 228px;
-    padding: 50px;
-}
-
-.svg_b img{
-    width: 150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter:  invert(1);
-    
-}
-
-#team-users div.bluelight-bg .wrapper{
-    padding: 100px 80px;
-}
-#team-users .textx{
-    width: 60%;
-}
-#team-users h2{
-    display: block;
-    width: 80%;
-}
-#team-users .button{
-    text-decoration: none;
-    color: var(--dark);
-    background-color: var(--lighter);
-}
-/* end fourth main section */
-/* start FAQ section */
-#faq_section{
- padding: 80px 0;
- 
-}
-#faq_section h4{
-    padding: 60px 0;
-    padding-right: 30px;
-
-}
-
-.accordian {
-	width: 805px; height: 320px;
-	overflow: hidden;
-    display: none;
-	
-	/*Time for some styling*/
-	margin: 100px auto;
-	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-}
-.accordian li {
-	position: relative;
-	display: inline;
-	width: 160px;
-	float: left;
-	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-	
-}
-
-
-
-.bordertop:hover .accordian{
-    display: block;
-}
-
-
-
-.accordian li img {
-	display: block;
-}
-
-/*Image title styles*/
-.image_title {
-	background: rgba(0, 0, 0, 0.5);
-	position: absolute;
-	left: 0; bottom: 0;	
-width: 640px;	
-
-}
-.image_title a {
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	padding: 20px;
-	font-size: 16px;
-}
-/* end FAQ section */
 
 /*#endregion site main */
 /*#region site footer */
