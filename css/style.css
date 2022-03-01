@@ -57,6 +57,7 @@ header nav ul li>a{
 
 .green_bg{
     background-color:var(--greenbg) ;
+    border: 10px solid rgb(226, 255, 207);
 }
 .amarigllo-bg{
     background-color: var(--amarigllo);
@@ -580,6 +581,7 @@ header nav ul li>a{
 
 
 
+
 .accordian li img {
 	display: block;
 }
@@ -627,7 +629,7 @@ width: 640px;
     line-height: 30px;
 }
 #footer-container hr{
-    margin:80px 1000px 40px 0;
+    margin:80px 1350px 40px 0;
 }
 
 #footer-lang{
